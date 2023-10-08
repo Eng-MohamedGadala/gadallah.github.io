@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./assets/background.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(5, 183, 243);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(0, 52, 69);
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(5, 183, 243);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(5, 183, 243);
     margin-left:-5px;
 }
 #menu {
@@ -79,9 +79,9 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    /* color:rgb(255, 50, 50); */
     font-size:70px;
-    text-decoration:underline;
+    /* text-decoration:underline;  */
 }
 #projects {
     width: 10vw;
@@ -92,7 +92,7 @@ body {
     color: #fff;
     position: fixed;
     top: 0;
-    right: 45vw;
+    right: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,12 +106,11 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(-90deg);
     background:transparent;
     color:#fff;
     position:fixed;
-    left:0;
-    bottom:40vh;
+    top: 0;
+    right: 60vw;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -124,12 +123,11 @@ body {
     height:10vw;
     text-align:center;
     font-size:25px;
-    transform:rotate(90deg);
     background:transparent;
     color:#fff;
     position:fixed;
-    right:0;
-    bottom:40vh;
+    top: 0;
+    right: 40vw;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -145,29 +143,29 @@ body {
     background:transparent;
     color:#fff;
     position:fixed;
-    bottom:0;
-    left:45vw;
+    top: 0;
+    right: 30vw;
     display:flex;
     flex-direction: column;
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
-    border-radius:100px 100px 0px 0px;
+    border-radius:0px 0px 100px 100px;
 }
 #projects:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(54, 81, 237, 0.9);
     cursor:pointer;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(54, 81, 237, 0.9);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(54, 81, 237, 0.9);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(54, 81, 237, 0.9);
     cursor:pointer;
 }
 #middle table {
@@ -179,21 +177,21 @@ body {
 }
 .social {
     color:#fff;
-    font-size:22px;
+    font-size:40px;
     border-radius:50%;
     transition:0.4s ease-in-out;
-    margin:0px 8px;
+    margin:0px 10px;
     text-align:center;
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:rgba(3, 195, 248, 0.9);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgb(1, 54, 68, 0.9);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -247,13 +245,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(1, 54, 68, 0.9);
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:rgb(1, 54, 68, 0.9);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -317,7 +315,8 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgba(0, 217, 255, 0.9);
+    text-decoration: none;
 }
 #particles-js {
     position:fixed;
@@ -332,14 +331,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(1, 54, 68, 0.9);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgba(1, 54, 68, 0.7);
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: rgb(1, 54, 68, 0.7);
 }
 
 @media (max-width: 800px){ 
