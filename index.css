@@ -248,6 +248,24 @@ body {
     color:rgb(1, 54, 68, 0.9);
     background:#fff;
 }
+.btn_one_cv {
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#fff;
+    background:transparent;
+    border:3px solid #fff;
+    padding:18px 40px;
+    border-radius:80px;
+    font-weight:bold;
+    width: 25vw;
+    margin:2vh 38vw;
+    transition:0.4s ease-in-out;
+}
+.btn_one_cv:hover {
+    cursor:pointer;
+    color:rgb(1, 54, 68, 0.9);
+    background:#fff;
+}
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
